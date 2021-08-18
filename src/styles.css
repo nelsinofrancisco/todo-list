@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 70vh;
+}
+
+main {
+  box-shadow: 0 10px 0.8rem #aaa;
+}
