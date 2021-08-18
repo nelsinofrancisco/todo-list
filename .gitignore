@@ -1,0 +1,6 @@
+#Ignoring node_modules
+node_modules/
+
+#ignore lighthouseci
+
+.lighthouseci/
