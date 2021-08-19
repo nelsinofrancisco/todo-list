@@ -15,7 +15,6 @@ export default class TaskList {
   addItem() {
     this.input = document.getElementById('add-task');
     this.arrowIcon = document.querySelector('.arrow-icon');
-    console.log(this.arrowIcon);
 
     this.input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
@@ -40,7 +39,6 @@ export default class TaskList {
         description: this.input.value,
         completed: false,
       };
-      console.log("I'm clicked");
       this.input.value = '';
       this.task_data.push(obj);
       localStorage.setItem('tasks_data', JSON.stringify(this.task_data));
