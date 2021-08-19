@@ -53,6 +53,7 @@ export default class TaskList {
     this.task_data.forEach((obj) => {
       const checked = (obj.completed) ? 'checked' : '';
       const lineTrought = (obj.completed) ? 'line-trought' : '';
+
       this.todoListContainer.innerHTML += `<div id="${obj.index}"class="d-flex justify-content-start mt-1">
       <div class="form-check me-1">
         <input class="checkbox form-check-input position-static" type="checkbox" id="blankCheckbox" value="true" aria-label="..." ${checked}>
