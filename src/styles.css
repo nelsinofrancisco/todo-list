@@ -11,3 +11,17 @@ body {
 main {
   box-shadow: 0 10px 0.8rem #aaa;
 }
+
+.line-trought {
+  text-decoration: line-through;
+}
+
+.arrow-icon {
+  right: 18px;
+  top: 6px;
+  z-index: 1;
+}
+
+.arrow-icon:hover {
+  cursor: pointer;
+}
