@@ -12,16 +12,35 @@ main {
   box-shadow: 0 10px 0.8rem #aaa;
 }
 
-.line-trought {
+.line-trought,
+.line-trought::placeholder {
   text-decoration: line-through;
+}
+
+.text-description,
+.text-description::placeholder,
+.text-description:focus {
+  color: #6c757d;
+  border: none;
+  outline: none;
+  width: 100%;
 }
 
 .arrow-icon {
   right: 18px;
   top: 6px;
-  z-index: 1;
+  width: 24px;
+  z-index: 2;
 }
 
-.arrow-icon:hover {
+.icon:hover {
   cursor: pointer;
+}
+
+.trash-icon,
+.sync-icon,
+.ellipsis-icon {
+  height: 16px;
+  z-index: 2;
+  color: #6c757d;
 }

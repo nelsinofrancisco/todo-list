@@ -1,7 +1,13 @@
 import './styles.css';
-import TaskList from './modules/task_list.js';
+import Store from './modules/store.js';
+import HandleTasks from './modules/handle_tasks.js';
+import UI from './modules/user_interface.js';
 
-const list = new TaskList();
+const STORE = new Store();
+const UI_INTERFACE = new UI(STORE);
+const LIST = new HandleTasks(STORE, UI_INTERFACE);
 
-list.generateHtmlTasks();
-list.addItem();
+UI_INTERFACE.generateHtmlTasks();
+LIST.addItem();
+LIST.clearAll();
+LIST.updateValue();
