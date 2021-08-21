@@ -74,6 +74,10 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledges
+
+- All the Icons in the website are provided by fontAwesome, read more about the license [here](https://fontawesome.com/license)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
